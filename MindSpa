@@ -1,14 +1,20 @@
 <html>
   <head>
     <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <title>A-Frame Cubemap Component - Yokohama</title>
+    <script src="../build.js"></script>
   </head>
   <body>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
       <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" src="https://i.imgur.com/HZdyZam.jpg"></a-plane>
-      <a-sky src="></a-sky>
+      <a-cubemap id="sky">
+      <img src="https://i.imgur.com/zmb9uS7.jpg">
+      <img src="https://i.imgur.com/eAtRu4C.jpg">
+      <img src="https://i.imgur.com/CDOy9JA.jpg">
+      <img src="https://i.imgur.com/Nol1uUe.jpg">
+      <img src="https://i.imgur.com/sD7wmTx.jpg">
+      <img src="https://i.imgur.com/X2KTVXE.jpg">
+    </a-cubemap>
     </a-scene>
   </body>
 </html>
