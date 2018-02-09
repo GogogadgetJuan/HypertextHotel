@@ -4,7 +4,6 @@
   </head>
   <body>
     <a-scene>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" src="https://i.imgur.com/HZdyZam.jpg"></a-plane>
       <a-sky src="https://farm5.staticflickr.com/4051/4524005292_5c0c99cffa_o.jpg">
       </a-sky>
     </a-scene>
