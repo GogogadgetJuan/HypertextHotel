@@ -14,6 +14,7 @@
       <img src="https://i.imgur.com/Nol1uUe.jpg">
       <img src="https://i.imgur.com/sD7wmTx.jpg">
       <img src="https://i.imgur.com/X2KTVXE.jpg">
+    <a-sky src="#sky></a-sky>
     </a-cubemap>
     </a-scene>
   </body>
