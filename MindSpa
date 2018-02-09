@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sky src="https://farm5.staticflickr.com/4051/4524005292_5c0c99cffa_o.jpg">
+      </a-sky>
+    </a-scene>
+  </body>
+</html>
